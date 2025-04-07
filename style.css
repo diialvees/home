@@ -1,0 +1,127 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(101, 6, 6);
+    background: linear-gradient(90deg, rgba(101, 6, 6, 1) 0%, rgba(154, 45, 45, 1) 46%, rgba(231, 79, 89, 1) 100%);
+    color: #ffffff;
+}
+
+header {
+    background-color: #4d0202;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 12rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-sair {
+    background: none;
+    border: none;
+    color: white;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    padding: 0;
+}
+
+.btn-sair:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.submit-btn:hover {
+    background-color: #2980b9;
+}
+
+
+main {
+    padding: 2rem;
+}
+
+.video-container {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+
+.paragrafo {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.paragrafo {
+    margin-top: 2rem;
+    line-height: 1.6;
+}
+
+.paragrafo p {
+    margin-bottom: 1.5rem;
+}
